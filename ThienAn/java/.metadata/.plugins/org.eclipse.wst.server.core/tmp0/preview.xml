@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server port="8080">
+  <module context="webb.main" name="webb.main" path="/home/fresher/Desktop/java/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/webb.main" type="j2ee"/>
+</server>
