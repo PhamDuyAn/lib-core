@@ -3,7 +3,7 @@ package cuong.myissue.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
 
-@Document(indexName = "project-cuong-test", type = "issues")
+@Document(indexName = "training-project", type = "issues")
 public class MyIssue {
 
     @Id

@@ -40,12 +40,18 @@ public class Application implements CommandLineRunner {
 
 		printElasticSearchInfo();
 
-		String uri = "https://www.hostedredmine.com";
-		String apiAccessKey = "8bcb9fdba62a76d668126a171a455e86fd0e4d67";
-		String projectKey = "project-cuong-test";
+		System.setProperty("http.proxyHost", "10.225.3.1");
+		System.setProperty("http.proxyPort", "3128");
+		System.setProperty("https.proxyHost", "10.225.3.1");
+		System.setProperty("https.proxyPort", "3128");
+		
+		String uri = "http://apis.ifisolution.local:8080";
+		String user = "fresher12";
+		String password = "12345678";
+		String projectKey = "training-project";
 		Integer queryId = null; // any
 
-		RedmineManager mgr = RedmineManagerFactory.createWithApiKey(uri, apiAccessKey);
+		RedmineManager mgr = RedmineManagerFactory.createWithUserAuth(uri, user, password);
 		IssueManager issueManager = mgr.getIssueManager();
 		List<Issue> issuesList = issueManager.getIssues(projectKey, queryId);
 
