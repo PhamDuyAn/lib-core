@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: Student_Course_cassandraSpring
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: khoatran378
+Implementation-Vendor-Id: Fresher12
+Build-Jdk: 1.8.0_03-Ubuntu
+Implementation-URL: http://projects.spring.io/spring-boot/Student_Cour
+ se_cassandraSpring/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
