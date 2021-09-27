@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * @author DuyAn
- *
- */
-package ConnectionMySQL;
